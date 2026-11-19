@@ -11,7 +11,7 @@ class MultiTaskThread extends Thread {
 }
 public class Latihan8_ThreadPart2 {
     public static void main(String[] args) {
-        int jumlahThread = 5; // Bisa diubah sesuai kebutuhan
+        int jumlahThread = 5; 
 
         for (int i = 1; i <= jumlahThread; i++) {
             MultiTaskThread thread = new MultiTaskThread("Tugas-" + i);
